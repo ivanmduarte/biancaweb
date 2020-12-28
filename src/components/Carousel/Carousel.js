@@ -24,9 +24,9 @@ class Carousel extends Component {
                                     dolor id nibh ultricies vehicula ut id elit.
                                 </p>
                                 <p>
-                                    <a className="btn btn-lg btn-primary" href="#" role="button">
+                                    {/* <a className="btn btn-lg btn-primary" href="#" role="button">
                                         Sign up today
-                                    </a>
+                                    </a> */}
                                 </p>
                             </div>
                         </div>
@@ -46,9 +46,9 @@ class Carousel extends Component {
                                     dolor id nibh ultricies vehicula ut id elit.
                                 </p>
                                 <p>
-                                    <a className="btn btn-lg btn-primary" href="#" role="button">
+                                    {/* <a className="btn btn-lg btn-primary" href="#" role="button">
                                         Learn more
-                                    </a>
+                                    </a> */}
                                 </p>
                             </div>
                         </div>
@@ -68,9 +68,9 @@ class Carousel extends Component {
                                     dolor id nibh ultricies vehicula ut id elit.
                                 </p>
                                 <p>
-                                    <a className="btn btn-lg btn-primary" href="#" role="button">
+                                    {/* <a className="btn btn-lg btn-primary" href="#" role="button">
                                         Browse gallery
-                                    </a>
+                                    </a> */}
                                 </p>
                             </div>
                         </div>
