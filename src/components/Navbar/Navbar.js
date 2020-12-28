@@ -13,7 +13,7 @@ class Navbar extends Component {
                         )
                     })}
                 </nav>
-                <a href="javascript:window.open(`https://www.instagram.com/biancaceugenio/?hl=pt-br`);"><i className="fab fa-instagram fs-3 text-consultoria"></i></a>
+                {/* <a href="javascript:window.open(`https://www.instagram.com/biancaceugenio/?hl=pt-br`);"><i className="fab fa-instagram fs-3 text-consultoria"></i></a> */}
             </header>
         )
     }
