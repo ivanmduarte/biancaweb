@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import biancaE from '../../imgs/BiancaEugenio1.jpg';
 
 class Conteudo extends Component {
     render(){
@@ -110,7 +110,7 @@ class Conteudo extends Component {
                                 </p>
                             </div>
                             <div className="col-md-5 order-md-1">
-                                <img src="../../BiancaEugenio1.jpg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300" />   
+                                <img src={biancaE} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300" />   
                             </div>
                         </div>
                     </div>
