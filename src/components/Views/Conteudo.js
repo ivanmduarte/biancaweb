@@ -93,26 +93,25 @@ class Conteudo extends Component {
                 </div>
                 
                 <div id="sobre" className="mt-4 pt-4 bg-light">
-                    <h2>Sobre</h2>
+                    {/* <h2>Sobre</h2> */}
 
                     <div className="mt-3 p-3">
                         <div className="row featurette">
                             <div className="col-md-7 order-md-2">
                                 <h3 className="featurette-heading">
-                                    Oh yeah, it’s that good. 
-                                    <span className="text-muted">See for yourself.</span>
+                                    Olá,  
+                                    <span className="text-consultoria"> eu sou a Bianca Eugênio.</span>
                                 </h3>
                                 <p className="lead">
-                                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis 
-                                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. 
-                                    Fusce dapibus, tellus ac cursus commodo.
+                                    Sou Fonoaudióloga e Consultora de Imagem e Estilo.
+                                    O meu propósito consiste em ajudá-los a encontrar a sua melhor versão, por meio de 
+                                    ajustes na comunicação verbal (oratória) e não verbal (visuais e comportamentais). 
+                                    Saber comunicar bem todas as suas potencialidades é um grande diferencial. 
                                 </p>
                             </div>
                             <div className="col-md-5 order-md-1">
-                                <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <title>Placeholder</title>
-                                    <rect width="100%" height="100%" fill="#eee"></rect>
-                                </svg>
+                                <img src={'../BiancaEugenio1.jpg'} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300">
+                                </img>   
                             </div>
                         </div>
                     </div>
