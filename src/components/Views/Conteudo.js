@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import biancaE from '../../imgs/BiancaEugenio1.jpg';
 import coloracaoImg from '../../imgs/coloracaoPessoal.jpg';
+import revitalizacaoGrImg from '../../imgs/revitalizacaoGuardaRoupas.jpg';
+import personalShopperImg from '../../imgs/personalShopper.jpg';
 
 class Conteudo extends Component {
     render(){
@@ -47,7 +49,7 @@ class Conteudo extends Component {
 
                         <div className="col">
                             <div className="card h-100">
-                                <img src="..." className="card-img-top" alt="..."/>
+                                <img src={revitalizacaoGrImg} className="card-img-top" alt="..." width="300"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Revitalização do Guarda-roupas</h5>
                                 </div>
@@ -56,7 +58,7 @@ class Conteudo extends Component {
 
                         <div className="col">
                             <div className="card h-100">
-                                <img src="..." className="card-img-top" alt="..."/>
+                                <img src={personalShopperImg} className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <h5 className="card-title">Personal Shopper</h5>
                                 </div>
