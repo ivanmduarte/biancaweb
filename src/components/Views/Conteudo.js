@@ -8,32 +8,7 @@ class Conteudo extends Component {
     render(){
         return(
             <div className="container-fluid text-center p-0">
-
-                <div id="sobre" className="mt-4 mb-4 pt-4 pb-4">
-                    {/* <h2>Sobre</h2> */}
-
-                    <div className="mt-3 p-3">
-                        <div className="row featurette">
-                            <div className="col-md-7 order-md-2">
-                                <h3 className="featurette-heading">
-                                    Olá,  
-                                    <span className="text-consultoria"> eu sou a Bianca Eugênio.</span>
-                                </h3>
-                                <p className="lead">
-                                    Sou Fonoaudióloga e Consultora de Imagem e Estilo.
-                                    O meu propósito consiste em ajudá-los a encontrar a sua melhor versão, por meio de 
-                                    ajustes na comunicação verbal (oratória) e não verbal (visuais e comportamentais). 
-                                    Saber comunicar bem todas as suas potencialidades é um grande diferencial. 
-                                </p>
-                            </div>
-                            <div className="col-md-5 order-md-1">
-                                <img src={biancaE} alt="Bianca Eugênio" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300" />   
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="consultoria" className="bg-secondary pt-4" widht="100">
+                <div id="consultoria" className="bg-light pt-4" widht="100">
                     <h1>Consultoria de Imagem e Estilo</h1>
                     <div className="col-1 mx-auto border-bottom border-consultoria" />
 
@@ -117,6 +92,30 @@ class Conteudo extends Component {
                             </div>
                         </div>
                         
+                    </div>
+                </div>
+                
+                <div id="sobre" className="mt-4 pt-4 bg-light">
+                    {/* <h2>Sobre</h2> */}
+
+                    <div className="mt-3 p-3">
+                        <div className="row featurette">
+                            <div className="col-md-7 order-md-2">
+                                <h3 className="featurette-heading">
+                                    Olá,  
+                                    <span className="text-consultoria"> eu sou a Bianca Eugênio.</span>
+                                </h3>
+                                <p className="lead">
+                                    Sou Fonoaudióloga e Consultora de Imagem e Estilo.
+                                    O meu propósito consiste em ajudá-los a encontrar a sua melhor versão, por meio de 
+                                    ajustes na comunicação verbal (oratória) e não verbal (visuais e comportamentais). 
+                                    Saber comunicar bem todas as suas potencialidades é um grande diferencial. 
+                                </p>
+                            </div>
+                            <div className="col-md-5 order-md-1">
+                                <img src={biancaE} alt="Bianca Eugênio" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" width="300" height="300" />   
+                            </div>
+                        </div>
                     </div>
                 </div>
 
