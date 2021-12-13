@@ -3,6 +3,7 @@ import biancaE from '../../imgs/BiancaEugenio1.jpg';
 import coloracaoImg from '../../imgs/coloracaoPessoal.jpg';
 import revitalizacaoGrImg from '../../imgs/revitalizacaoGuardaRoupas.jpg';
 import personalShopperImg from '../../imgs/personalShopper.jpg';
+import backG from '../../imgs/background-consultoria1.jpg';
 
 class Conteudo extends Component {
     render(){
@@ -10,15 +11,12 @@ class Conteudo extends Component {
             <div className="container-fluid text-center p-0">
 
                 <div id="sobre" className="mt-4 mb-4 pt-4 pb-4">
-                    {/* <h2>Sobre</h2> */}
-
                     <div className="mt-3 p-3">
                         <div className="row featurette">
                             <div className="col-md-7 order-md-2">
-                                <h3 className="featurette-heading">
-                                    Olá,  
-                                    <span className="text-consultoria"> eu sou a Bianca Eugênio.</span>
-                                </h3>
+                                <h2 className="featurette-heading">
+                                    Bianca Eugênio
+                                </h2>
                                 <p className="lead">
                                     Sou Fonoaudióloga e Consultora de Imagem e Estilo.
                                     O meu propósito consiste em ajudá-los a encontrar a sua melhor versão, por meio de 
@@ -33,9 +31,9 @@ class Conteudo extends Component {
                     </div>
                 </div>
 
-                <div id="consultoria" className="bg-secondary pt-4" widht="100">
+                <div id="consultoria" className="pt-4 text-white" widht="100" style={{backgroundImage: `url(${backG})`, backgroundSize:`cover`}}>
                     <h1>Consultoria de Imagem e Estilo</h1>
-                    <div className="col-1 mx-auto border-bottom border-consultoria" />
+                    <div className="col-1 mx-auto border-bottom border-bianca1" />
 
                     <div className="container pt-3 pb-3">
                         <p>
@@ -55,6 +53,9 @@ class Conteudo extends Component {
                             interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero 
                             are also reproduced in their exact original form, accompanied by English versions from 
                             the 1914 translation by H. Rackham.
+                        </p>
+                        <p className="text-center">
+                            <button className="btn btn-outline-bianca1">teste</button>
                         </p>
                     </div>
                 </div>

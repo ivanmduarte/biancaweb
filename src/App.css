@@ -10,15 +10,19 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto', sans-serif;
 }
 
-.border-consultoria{
-  border-bottom: 5px solid #514341!important;
+.border-bianca1{
+  border-color: #F2594B!important;
+}
+
+.border-bianca2{
+  border-color: #403D3E!important;
 }
 
 .carousel-item{
   height: 32rem;
 }
 
-.text-consultoria{
+.text-consultoria{ /*Remover*/
   color: #514341!important;
 }
 
@@ -29,3 +33,41 @@ h1, h2, h3, h4, h5, h6{
 .color-bianca2{
   color: #403D3E!important;
 }
+
+/*BTN OUTLINE BIANCA*/
+.btn-outline-bianca1 {
+  color: #F2594B;
+  background-color: transparent;
+  background-image: none;
+  border-color: #F2594B;
+}
+
+.btn-outline-bianca1:hover{
+  color:#FFFFFF;
+  background-color:#F2594B;
+  border-color:#F2594B
+}
+
+.btn-outline-bianca1.focus, .btn-outline-bianca1:focus{
+  box-shadow:0 0 0 .2rem rgba(242, 89, 75,.5)
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled{
+  color:#F2594B;
+  background-color:transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,.show>
+.btn-outline-primary.dropdown-toggle{
+  color:#FFFFFF;
+  background-color:#F2594B;
+  border-color:#F2594B
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.show>
+.btn-outline-primary.dropdown-toggle:focus{
+  box-shadow:0 0 0 .2rem rgba(242, 89, 75,.5)
+}
+/*FIM - BTN OUTLINE BIANCA*/
