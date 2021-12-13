@@ -5,7 +5,7 @@ class Carousel extends Component {
     render(){
         return(
             <div id="banner" className="carousel">
-                <img src={logo} style={{width: '100%'}}></img>
+                <img src={logo} style={{width: '100%'}} alt="Bianca"></img>
             </div>
         )
     }
