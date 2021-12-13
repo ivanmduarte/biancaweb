@@ -4,7 +4,7 @@ import logo from '../../imgs/banner.jpg';
 class Carousel extends Component {
     render(){
         return(
-            <div id="myCarousel" className="carousel" data-bs-ride="carousel">
+            <div id="banner" className="carousel">
                 <img src={logo} style={{width: '100%'}}></img>
             </div>
         )
